@@ -1,4 +1,4 @@
-FROM baseimageupdatedemo.azurecr-test.io/baseimage/node:latest
+FROM node:9
 COPY . /src
 RUN cd /src && npm install
 EXPOSE 80
