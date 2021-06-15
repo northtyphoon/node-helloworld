@@ -1,4 +1,4 @@
-FROM node:9
+FROM node:latest
 COPY . /src
 RUN cd /src && npm install
 EXPOSE 80
